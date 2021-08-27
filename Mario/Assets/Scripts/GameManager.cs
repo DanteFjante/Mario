@@ -9,8 +9,9 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance
     {
-        get => SceneManager.GetActiveScene().GetRootGameObjects().First(t => t.GetType() == typeof(GameManager))
-    };
+        get;
+        set; //get => SceneManager.GetActiveScene().GetRootGameObjects().First(t => t.GetType() == typeof(GameManager))
+    }
 
 
 
