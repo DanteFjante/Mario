@@ -61,3 +61,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+Mario/.idea/
+
+Mario/obj/
+
+Mario/UserSettings/
+
+Mario/Library/
